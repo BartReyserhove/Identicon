@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="Identicon.widget.Identicon" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>Identicon</name>
+    <description>This wdiget replaces a hash value by a identicon image like the ones they use on Github. Relies on https://github.com/stewartlord/identicon.js</description>
+
+    <icon />
+
+    <properties>
+        <property key="hash" type="attribute" required="true" defaultValue="">
+            <caption>Hash</caption>
+            <category>Data</category>
+            <description>Hash for which an image needs to be created</description>                                     
+            <attributeTypes>
+                <attributeType name="String"/>
+            </attributeTypes>
+        </property>         
+         <property key="cssClass" type="string" defaultValue="" required="false">
+            <caption>Image CSS class</caption>
+            <category>Appearance</category>
+            <description>Sets the CSS class of the image</description>
+        </property>
+    </properties>
+</widget>

@@ -1,0 +1,11 @@
+{
+  "generator-mendix": {
+    "promptValues": {
+      "copyright": "Legal Studio 2019",
+      "license": "Apache 2",
+      "author": "Bart Reyserhove",
+      "boilerplate": "empty",
+      "widgetoptions": []
+    }
+  }
+}
